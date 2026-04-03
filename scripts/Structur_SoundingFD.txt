@@ -1,0 +1,32 @@
+~/soundingFD/
+│
+├── venv/                 ← Python Umgebung
+│
+├── scripts/              ← Produktionsscripts (stabil)
+│   ├── 
+│   ├── 
+
+── orig/                  ← Basistests &  Ideen)
+│   ├── orig_scripts/
+	├──	fetch_sounding.py
+│   ├── sounding_to_geojson_br.py
+│   ├── notebooks/
+│
+├── dev/                  ← Entwicklung (neue Ideen)
+│   ├── test_scripts/
+│   ├── notebooks/
+│
+├── data/
+│   ├── raw/              ← ursprüngliche JSON
+│   ├── geojson/          ← fertige .geojson
+│   ├── logs/
+│
+├── config/
+│   ├── stations.json
+│   ├── settings.yaml
+│
+├── output/
+│   ├── plots/
+│   ├── exports/
+│
+└── README.md
