@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { Text, View, StyleSheet, Dimensions, Button, ScrollView, TextInput } from 'react-native';
+import { Text, View, StyleSheet, Dimensions, Button, ScrollView, TextInput, TouchableOpacity } from 'react-native';
 import { Picker } from '@react-native-picker/picker';
 import Svg, { Circle, Line, Text as SvgText, Rect } from 'react-native-svg';
 import mqtt from 'mqtt';
@@ -1312,7 +1312,7 @@ export default function App() {
       <View style={styles.gridRow}>
         <View style={[styles.gridCell, { width: cellWidth }]}>
           <View style={styles.textContent}>
-            <Text style={styles.numericTitle}>hlballon Flight Display v:260402</Text>
+            <Text style={styles.numericTitle}>hlballon Flight Display v:260404</Text>
             <Text style={styles.gpsDateTime}>
               Time: {latestGpsDateTime} | Lat: {latestLatitude.toFixed(4)}°, Long: {latestLongitude.toFixed(4)}°
             </Text>
@@ -1326,32 +1326,50 @@ export default function App() {
             <View style={styles.tableRow}><Text style={styles.label}>Temperature</Text><Text style={styles.value}>{latestTemperature.toFixed(2)}</Text><Text style={styles.unit}>°C</Text></View>
             <View style={styles.tableRow}><Text style={styles.label}>Humidity</Text><Text style={styles.value}>{latestHumidity.toFixed(2)}</Text><Text style={styles.unit}>%</Text></View>
           </View>
-          <View style={[styles.buttonContainer, { zIndex: 10 }]}>
-            <Button
-              title={dataSource === 'http' ? 'Switch to Replay' : dataSource === 'replay' ? 'Switch to HTTP' : 'Switch to HTTP'}
-              onPress={() => {
-                console.log('Switch to HTTP/Replay button clicked');
-                switchDataSource(dataSource === 'http' ? 'replay' : 'http');
-              }}
-            />
-            <Button
-              title={dataSource === 'mqtt' ? 'Switch to HTTP' : 'Switch to MQTT'}
-              onPress={() => {
-                console.log('Switch to MQTT button clicked');
-                switchDataSource(dataSource === 'mqtt' ? 'http' : 'mqtt');
-              }}
-              color="#FF4500"
-            />
-            {dataSource === 'replay' && (
-              <Button
-                title={isPaused ? "Continue" : "Pause"}
-                onPress={() => {
-                  console.log(isPaused ? 'Continue button clicked' : 'Pause button clicked');
-                  isPaused ? continueReplay() : pauseReplay();
-                }}
-                color="#FFFF00"
-              />
-            )}
+          <View style={[styles.buttonContainer, { zIndex: 20 }]}>
+  <TouchableOpacity
+    style={[styles.smallActionButton, styles.replayButton]}
+    onPress={() => {
+      console.log('Switch to Replay button clicked');
+      switchDataSource('replay');
+    }}
+  >
+    <Text style={styles.smallActionButtonText}>SWITCH TO REPLAY</Text>
+  </TouchableOpacity>
+
+  <TouchableOpacity
+    style={[styles.smallActionButton, styles.httpButton]}
+    onPress={() => {
+      console.log('Switch to HTTP button clicked');
+      switchDataSource('http');
+    }}
+  >
+    <Text style={styles.smallActionButtonText}>SWITCH TO HTTP</Text>
+  </TouchableOpacity>
+
+  <TouchableOpacity
+    style={[styles.smallActionButton, styles.mqttButton]}
+    onPress={() => {
+      console.log('Switch to MQTT button clicked');
+      switchDataSource('mqtt');
+    }}
+  >
+    <Text style={styles.smallActionButtonText}>SWITCH TO MQTT</Text>
+  </TouchableOpacity>
+
+  {dataSource === 'replay' && (
+    <TouchableOpacity
+      style={[styles.smallActionButton, styles.pauseButton]}
+      onPress={() => {
+        console.log(isPaused ? 'Continue button clicked' : 'Pause button clicked');
+        isPaused ? continueReplay() : pauseReplay();
+      }}
+    >
+      <Text style={styles.smallActionButtonText}>
+        {isPaused ? 'CONTINUE' : 'PAUSE'}
+      </Text>
+    </TouchableOpacity>
+  )}
           </View>
           <View style={[styles.weatherButtonContainer, { zIndex: 10 }]}>
             <Button
@@ -1568,7 +1586,13 @@ const styles = StyleSheet.create({
   gridCell: { position: 'relative', justifyContent: 'flex-start', alignItems: 'center', backgroundColor: '#e8e8e8', borderRadius: 5, paddingVertical: 10, flex: 1 },
   textContent: { flex: 1, width: '100%', alignItems: 'center', paddingBottom: 90 },
   weatherButtonContainer: { position: 'absolute', bottom: 10, right: 10, width: 150 },
-  buttonContainer: { position: 'absolute', bottom: 10, left: 10, width: 120, alignItems: 'flex-start' },
+  buttonContainer: {
+  position: 'absolute',
+  bottom: 10,
+  left: 10,
+  width: 110,
+  alignItems: 'stretch',
+},
   numericTitle: { fontSize: 18, fontWeight: 'bold', marginBottom: 5, textAlign: 'center' },
   referenceText: { fontSize: 14, fontWeight: 'bold', marginBottom: 5, textAlign: 'center' },
   gpsDateTime: { fontSize: 14, marginBottom: 5, textAlign: 'left', width: '100%' },
@@ -1644,4 +1668,36 @@ const styles = StyleSheet.create({
     marginHorizontal: 5,
     backgroundColor: '#fff',
   },
+  smallActionButton: {
+  minHeight: 34,
+  paddingVertical: 6,
+  paddingHorizontal: 8,
+  justifyContent: 'center',
+  alignItems: 'center',
+  borderRadius: 3,
+  marginBottom: 4,
+},
+
+smallActionButtonText: {
+  color: '#FFFFFF',
+  fontSize: 11,
+  fontWeight: 'bold',
+  textAlign: 'center',
+},
+
+replayButton: {
+  backgroundColor: '#00CED1',
+},
+
+httpButton: {
+  backgroundColor: '#1E90FF',
+},
+
+mqttButton: {
+  backgroundColor: '#FF4500',
+},
+
+pauseButton: {
+  backgroundColor: '#CCCC00',
+},
 });
