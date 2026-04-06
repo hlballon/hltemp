@@ -1,0 +1,13 @@
+{
+  "state": "fresh",
+  "message": "Latest sounding published and ready for display.",
+  "request_id": "459e76e1-3edc-43ec-af22-11249f993193",
+  "request_time_utc": "2026-04-06T02:23:31Z",
+  "source_lat": 52.29696,
+  "source_lon": 13.04748,
+  "displayed_version": "2026-04-06T02:23:31Z",
+  "pending_version": null,
+  "published_version": "2026-04-06T02:23:31Z",
+  "data_time_utc": "2026-04-06T02:23:31Z",
+  "updated_at_utc": "2026-04-06T02:23:51Z"
+}
