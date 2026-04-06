@@ -1,7 +1,7 @@
 {
   "state": "fresh",
   "message": "Latest sounding published and ready for display.",
-  "request_id": "85277a16-4f83-4a43-bb84-12a664cdfc9b",
+  "request_id": "4f88bb27-5648-4a3d-bb90-6e9882cc81bf",
   "request_time_utc": "2026-04-06T21:04:36Z",
   "source_lat": 51.6243,
   "source_lon": 12.29458,
@@ -9,7 +9,7 @@
   "pending_version": null,
   "published_version": "2026-04-06T21:04:36Z",
   "data_time_utc": "2026-04-06T18:00:00Z",
-  "updated_at_utc": "2026-04-06T21:05:14Z",
+  "updated_at_utc": "2026-04-06T21:05:15Z",
   "model_name": "ICON-D2",
   "model_run_utc": "2026-04-06T18:00:00Z",
   "forecast_hour": 0
