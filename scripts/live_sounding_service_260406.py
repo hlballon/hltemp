@@ -1,6 +1,7 @@
 import json
 import time
-from datetime import datetime, timezone
+import re
+from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import paho.mqtt.client as mqtt
 import subprocess
@@ -45,6 +46,9 @@ def default_status() -> dict:
         "request_time_utc": None,
         "source_lat": None,
         "source_lon": None,
+        "model_name": None,
+        "model_run_utc": None,
+        "forecast_hour": None,
         "displayed_version": None,
         "pending_version": None,
         "published_version": None,
@@ -134,6 +138,9 @@ def publish_status_only(
     displayed_version: str | None = None,
     published_version: str | None = None,
     data_time_utc: str | None = None,
+    model_name: str | None = None,
+    model_run_utc: str | None = None,
+    forecast_hour: int | None = None,
 ):
     update_status(
         state=state,
@@ -146,6 +153,9 @@ def publish_status_only(
         pending_version=pending_version,
         published_version=published_version,
         data_time_utc=data_time_utc,
+        model_name=model_name,
+        model_run_utc=model_run_utc,
+        forecast_hour=forecast_hour,
     )
 
     git_commit_and_push(
@@ -154,15 +164,69 @@ def publish_status_only(
     )
 
 
-def extract_data_time_utc(request_version: str, json_path: Path | None = None) -> str:
+def extract_model_time_info(json_path: Path | None, request_version: str) -> dict:
     """
-    For now we use the request timestamp as the version/data time.
-    Later you can replace this with model-run-valid-time from the fetched JSON.
+    Extract timing information from the raw sounding filename.
+
+    Example filename:
+    sounding_ICON-D2_20260405_21Z_+000h_52.30N_13.05E.json
     """
-    return request_version
+    fallback = {
+        "model_name": None,
+        "model_run_utc": request_version,
+        "forecast_hour": None,
+        "data_time_utc": request_version,
+    }
+
+    if json_path is None:
+        return fallback
+
+    name = json_path.name
+
+    pattern = re.compile(
+        r"^sounding_(?P<model>.+?)_(?P<date>\d{8})_(?P<hour>\d{2})Z_\+(?P<step>\d{3})h_"
+    )
+
+    match = pattern.search(name)
+    if not match:
+        print(f"⚠️ Could not parse model timing from filename: {name}")
+        return fallback
+
+    try:
+        model_name = match.group("model")
+        run_date = match.group("date")
+        run_hour = match.group("hour")
+        forecast_hour = int(match.group("step"))
+
+        run_dt = datetime.strptime(
+            f"{run_date}{run_hour}",
+            "%Y%m%d%H"
+        ).replace(tzinfo=timezone.utc)
+
+        valid_dt = run_dt + timedelta(hours=forecast_hour)
+
+        return {
+            "model_name": model_name,
+            "model_run_utc": run_dt.isoformat().replace("+00:00", "Z"),
+            "forecast_hour": forecast_hour,
+            "data_time_utc": valid_dt.isoformat().replace("+00:00", "Z"),
+        }
+
+    except Exception as e:
+        print(f"⚠️ Failed to compute model timing from filename {name}: {e}")
+        return fallback
 
 
-def inject_geojson_metadata(geojson_path: Path, request_id: str, version: str, data_time_utc: str):
+def inject_geojson_metadata(
+    geojson_path: Path,
+    request_id: str,
+    version: str,
+    data_time_utc: str,
+    model_name: str | None,
+    model_run_utc: str | None,
+    forecast_hour: int | None,
+    request_time_utc: str,
+):
     try:
         data = json.loads(geojson_path.read_text(encoding="utf-8"))
         if not isinstance(data, dict):
@@ -176,13 +240,18 @@ def inject_geojson_metadata(geojson_path: Path, request_id: str, version: str, d
         metadata.update({
             "request_id": request_id,
             "version": version,
+            "request_time_utc": request_time_utc,
             "data_time_utc": data_time_utc,
+            "model_name": model_name,
+            "model_run_utc": model_run_utc,
+            "forecast_hour": forecast_hour,
             "generated_at_utc": utc_now_iso()
         })
 
         data["metadata"] = metadata
         geojson_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
         print(f"✅ Injected GeoJSON metadata into {geojson_path}")
+
     except Exception as e:
         print(f"⚠️ Failed to inject GeoJSON metadata: {e}")
 
@@ -209,7 +278,6 @@ def trigger_sounding_fetch(lat: float, lon: float):
     print(f"🆔 Request ID: {request_id}")
     print(f"🕒 Request version: {request_version}")
 
-    # Step 1: immediately publish PENDING status
     try:
         publish_status_only(
             state="pending",
@@ -222,6 +290,9 @@ def trigger_sounding_fetch(lat: float, lon: float):
             displayed_version=previous_displayed_version,
             published_version=previous_published_version,
             data_time_utc=previous_status.get("data_time_utc"),
+            model_name=previous_status.get("model_name"),
+            model_run_utc=previous_status.get("model_run_utc"),
+            forecast_hour=previous_status.get("forecast_hour"),
         )
         print("✅ Published PENDING status")
     except Exception as e:
@@ -280,7 +351,19 @@ def trigger_sounding_fetch(lat: float, lon: float):
         if not json_path.exists():
             raise FileNotFoundError(f"JSON path does not exist: {json_path}")
 
-        data_time_utc = extract_data_time_utc(request_version, json_path)
+        time_info = extract_model_time_info(json_path, request_version)
+
+        model_name = time_info["model_name"]
+        model_run_utc = time_info["model_run_utc"]
+        forecast_hour = time_info["forecast_hour"]
+        data_time_utc = time_info["data_time_utc"]
+
+        print(
+            f"🕒 Model timing: model={model_name}, run={model_run_utc}, "
+            f"forecast_hour=+{forecast_hour:03d}h, valid={data_time_utc}"
+            if forecast_hour is not None
+            else f"🕒 Model timing fallback: valid={data_time_utc}"
+        )
 
         geojson_path = sounding_json_to_geojson(
             json_path,
@@ -291,10 +374,13 @@ def trigger_sounding_fetch(lat: float, lon: float):
             geojson_path=Path(geojson_path),
             request_id=request_id,
             version=request_version,
-            data_time_utc=data_time_utc
+            request_time_utc=request_version,
+            data_time_utc=data_time_utc,
+            model_name=model_name,
+            model_run_utc=model_run_utc,
+            forecast_hour=forecast_hour,
         )
 
-        # Step 2: local file ready, publish PUBLISHING status
         try:
             publish_status_only(
                 state="publishing",
@@ -307,6 +393,9 @@ def trigger_sounding_fetch(lat: float, lon: float):
                 displayed_version=previous_displayed_version,
                 published_version=previous_published_version,
                 data_time_utc=data_time_utc,
+                model_name=model_name,
+                model_run_utc=model_run_utc,
+                forecast_hour=forecast_hour,
             )
             print("✅ Published PUBLISHING status")
         except Exception as e:
@@ -319,7 +408,6 @@ def trigger_sounding_fetch(lat: float, lon: float):
 
         print(f"✅ Live file prepared: {live_file}")
 
-        # Step 3: final status becomes FRESH, commit/push geojson + status together
         update_status(
             state="fresh",
             message="Latest sounding published and ready for display.",
@@ -327,6 +415,9 @@ def trigger_sounding_fetch(lat: float, lon: float):
             request_time_utc=request_version,
             source_lat=lat,
             source_lon=lon,
+            model_name=model_name,
+            model_run_utc=model_run_utc,
+            forecast_hour=forecast_hour,
             displayed_version=request_version,
             pending_version=None,
             published_version=request_version,
@@ -352,9 +443,13 @@ def trigger_sounding_fetch(lat: float, lon: float):
                 request_time_utc=request_version,
                 source_lat=lat,
                 source_lon=lon,
+                model_name=previous_status.get("model_name"),
+                model_run_utc=previous_status.get("model_run_utc"),
+                forecast_hour=previous_status.get("forecast_hour"),
                 displayed_version=previous_displayed_version,
                 pending_version=None,
                 published_version=previous_published_version,
+                data_time_utc=previous_status.get("data_time_utc"),
             )
 
             git_commit_and_push(
@@ -380,9 +475,13 @@ def trigger_sounding_fetch(lat: float, lon: float):
                 request_time_utc=request_version,
                 source_lat=lat,
                 source_lon=lon,
+                model_name=previous_status.get("model_name"),
+                model_run_utc=previous_status.get("model_run_utc"),
+                forecast_hour=previous_status.get("forecast_hour"),
                 displayed_version=previous_displayed_version,
                 pending_version=None,
                 published_version=previous_published_version,
+                data_time_utc=previous_status.get("data_time_utc"),
             )
 
             git_commit_and_push(
@@ -453,7 +552,6 @@ def on_disconnect(client, userdata, rc, properties=None):
 if __name__ == "__main__":
     print("Starting live sounding service (on-demand via balloon/request_sounding)...")
 
-    # Ensure there is always a status file present
     if not status_file_path().exists():
         save_status(default_status())
 
