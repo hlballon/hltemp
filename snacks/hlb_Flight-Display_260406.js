@@ -7,6 +7,8 @@ import mqtt from 'mqtt';
 const LOG_FILE_URL = 'https://raw.githubusercontent.com/hlballon/hltemp/refs/heads/main/temp.jsonl';
 const WEATHER_FILE_URL = 'https://raw.githubusercontent.com/hlballon/hltemp/refs/heads/main/temp_w.txt';
 const LIVE_ICON_URL = 'https://raw.githubusercontent.com/hlballon/hltemp/refs/heads/main/latest_icon_sounding.geojson';
+const STATUS_FILE_URL =
+  'https://raw.githubusercontent.com/hlballon/hltemp/refs/heads/main/latest_icon_status.json';
 const GEOJSON_FILE_URL = 'https://raw.githubusercontent.com/hlballon/hltemp/refs/heads/main/manual-fetched.geojson';
 // const GEOJSON_FILE_URL = 'https://raw.githubusercontent.com/hlballon/hltemp/refs/heads/main/52p50_13p40_20260327_180000.geojson.br';
 const WYOMING_URL = 'https://raw.githubusercontent.com/hlballon/hltemp/refs/heads/main/wyoming.txt';
@@ -357,6 +359,11 @@ export default function App() {
   const [showIconD2, setShowIconD2] = useState(false);
   const [iconHData, setIconHData] = useState([]);
   const [showIconH, setShowIconH] = useState(false);
+  const [iconStatus, setIconStatus] = useState(null);
+  const [statusMessage, setStatusMessage] = useState("");
+  const [statusColor, setStatusColor] = useState("#00CED1");
+  const lastPublishedVersionRef = useRef(null);
+  const statusIntervalRef = useRef(null);
   const [showGeoJson, setShowGeoJson] = useState(false);
   const [showWyoming, setShowWyoming] = useState(false);
   const [selectedModel, setSelectedModel] = useState('icon_d2');
@@ -630,6 +637,132 @@ export default function App() {
     );
   }
   };
+const fetchIconStatus = async () => {
+
+  try {
+
+    const response =
+      await fetch(
+        STATUS_FILE_URL +
+        "?t=" + Date.now()
+      );
+
+    if (!response.ok)
+      throw new Error(
+        `HTTP ${response.status}`
+      );
+
+    const status =
+      await response.json();
+
+    setIconStatus(status);
+
+    handleStatusUpdate(status);
+
+  } catch (err) {
+
+    console.warn(
+      "Status fetch failed:",
+      err
+    );
+
+  }
+
+};
+
+const handleStatusUpdate = (status) => {
+
+  const state = status.state;
+
+  if (state === "pending") {
+
+    setStatusMessage(
+      "NEW SOUNDING REQUESTED — OLD DATA DISPLAYED"
+    );
+
+    setStatusColor("#FF4500");
+
+  }
+
+  else if (state === "publishing") {
+
+    setStatusMessage(
+      "NEW SOUNDING PUBLISHING"
+    );
+
+    setStatusColor("#FFA500");
+
+  }
+
+  else if (state === "fresh") {
+
+    setStatusMessage(
+      "LATEST SOUNDING READY"
+    );
+
+    setStatusColor("#00AA00");
+
+    const newVersion =
+      status.published_version;
+
+    if (
+      newVersion &&
+      newVersion !==
+      lastPublishedVersionRef.current
+    ) {
+
+      lastPublishedVersionRef.current =
+        newVersion;
+
+      fetchIconHData();
+
+    }
+
+  }
+
+  else if (state === "failed") {
+
+    setStatusMessage(
+      "SOUNDING UPDATE FAILED — OLD DATA ACTIVE"
+    );
+
+    setStatusColor("#990000");
+
+  }
+
+};
+
+const startStatusPolling = () => {
+
+  if (statusIntervalRef.current)
+    return;
+
+  fetchIconStatus();
+
+  statusIntervalRef.current =
+    setInterval(
+      fetchIconStatus,
+      3000
+    );
+
+};
+
+
+const stopStatusPolling = () => {
+
+  if (statusIntervalRef.current) {
+
+    clearInterval(
+      statusIntervalRef.current
+    );
+
+    statusIntervalRef.current =
+      null;
+
+  }
+
+};
+
 
   const fetchGeoJsonData = async () => {
     try {
@@ -1123,7 +1256,7 @@ export default function App() {
         if (!showIconH) {
           setShowIconH(true);
         }
-        fetchIconHData();
+        startStatusPolling();
       }
     }
   );
@@ -1312,11 +1445,37 @@ export default function App() {
       <View style={styles.gridRow}>
         <View style={[styles.gridCell, { width: cellWidth }]}>
           <View style={styles.textContent}>
-            <Text style={styles.numericTitle}>hlballon Flight Display v:260406</Text>
+            <Text style={styles.numericTitle}>hlballon Flight Display v:260404</Text>
             <Text style={styles.gpsDateTime}>
               Time: {latestGpsDateTime} | Lat: {latestLatitude.toFixed(4)}°, Long: {latestLongitude.toFixed(4)}°
             </Text>
             <Text style={styles.dataSourceText}>Data Source: {dataSource.toUpperCase()}</Text>
+ {showIconH && statusMessage !== "" && (
+
+<View
+  style={{
+    backgroundColor: statusColor,
+    padding: 6,
+    marginTop: 4,
+    borderRadius: 4
+  }}
+>
+
+<Text
+  style={{
+    color: "white",
+    fontWeight: "bold",
+    textAlign: "center"
+  }}
+>
+
+{statusMessage}
+
+</Text>
+
+</View>
+
+)}          
             {dataSource === 'mqtt' && <Text style={styles.connectionStatus}>MQTT Status: {connectionStatus}</Text>}
             <View style={styles.tableRow}><Text style={styles.label}>Altitude</Text><Text style={styles.value}>{latestAltitude.toFixed(2)}</Text><Text style={styles.unit}>m</Text></View>
             <View style={styles.tableRow}><Text style={styles.label}>v_Speed</Text><Text style={styles.value}>{latestVSpeed.toFixed(2)}</Text><Text style={styles.unit}>m/s</Text></View>
