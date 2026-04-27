@@ -1,6 +1,6 @@
 {
-  "state": "publishing",
-  "message": "New sounding prepared locally. Publishing in progress.",
+  "state": "fresh",
+  "message": "Latest sounding published and ready for display.",
   "request_id": "db8780c2-c102-4f17-9acc-c8e1f03cabf1",
   "request_time_utc": "2026-04-27T02:50:45Z",
   "source_lat": 51.86088181,
@@ -8,9 +8,9 @@
   "model_name": "ICON-D2",
   "model_run_utc": "2026-04-26T21:00:00Z",
   "forecast_hour": 0,
-  "displayed_version": "2026-04-27T02:45:07Z",
-  "pending_version": "2026-04-27T02:50:45Z",
-  "published_version": "2026-04-27T02:45:07Z",
+  "displayed_version": "2026-04-27T02:50:45Z",
+  "pending_version": null,
+  "published_version": "2026-04-27T02:50:45Z",
   "data_time_utc": "2026-04-26T21:00:00Z",
-  "updated_at_utc": "2026-04-27T02:51:18Z"
+  "updated_at_utc": "2026-04-27T02:51:19Z"
 }
