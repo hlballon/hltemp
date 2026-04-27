@@ -1,16 +1,16 @@
 {
   "state": "fresh",
   "message": "Latest sounding published and ready for display.",
-  "request_id": "c9a56322-bef3-4403-bfd4-f68c08a4a7dd",
+  "request_id": "05c29e6c-3a6c-4a6f-94b7-3364bb22642d",
   "request_time_utc": "2026-04-27T02:45:07Z",
   "source_lat": 51.86079407,
   "source_lon": 12.63389587,
   "model_name": "ICON-D2",
-  "model_run_utc": "2026-04-26T21:00:00Z",
-  "forecast_hour": 0,
+  "model_run_utc": "2026-04-27T00:00:00Z",
+  "forecast_hour": 3,
   "displayed_version": "2026-04-27T02:45:07Z",
   "pending_version": null,
   "published_version": "2026-04-27T02:45:07Z",
-  "data_time_utc": "2026-04-26T21:00:00Z",
+  "data_time_utc": "2026-04-27T03:00:00Z",
   "updated_at_utc": "2026-04-27T02:45:47Z"
 }
