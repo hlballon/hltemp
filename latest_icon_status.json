@@ -1,16 +1,16 @@
 {
-  "state": "fresh",
-  "message": "Latest sounding published and ready for display.",
-  "request_id": "2bbb3c46-b9af-4da2-aa32-7934f93bbbcd",
-  "request_time_utc": "2026-05-01T22:30:12Z",
-  "source_lat": 52.65371,
-  "source_lon": 11.12484,
+  "state": "pending",
+  "message": "New sounding requested. Previous sounding may still be displayed.",
+  "request_id": "fa25dee9-d7d0-4db5-a46d-e53fe3247eef",
+  "request_time_utc": "2026-05-01T22:44:05Z",
+  "source_lat": 52.72884,
+  "source_lon": 11.12672,
   "model_name": "ICON-D2",
   "model_run_utc": "2026-05-01T21:00:00Z",
   "forecast_hour": 2,
   "displayed_version": "2026-05-01T22:30:12Z",
-  "pending_version": null,
+  "pending_version": "2026-05-01T22:44:05Z",
   "published_version": "2026-05-01T22:30:12Z",
   "data_time_utc": "2026-05-01T23:00:00Z",
-  "updated_at_utc": "2026-05-01T22:30:32Z"
+  "updated_at_utc": "2026-05-01T22:44:05Z"
 }
