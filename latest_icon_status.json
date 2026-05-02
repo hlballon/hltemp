@@ -1,6 +1,6 @@
 {
-  "state": "pending",
-  "message": "New sounding requested. Previous sounding may still be displayed.",
+  "state": "publishing",
+  "message": "New sounding prepared locally. Publishing in progress.",
   "request_id": "66868afd-2d30-4aab-a076-12495b581edf",
   "request_time_utc": "2026-05-02T04:09:54Z",
   "source_lat": 54.83441,
@@ -12,5 +12,5 @@
   "pending_version": "2026-05-02T04:09:54Z",
   "published_version": "2026-05-02T04:04:30Z",
   "data_time_utc": "2026-05-02T04:00:00Z",
-  "updated_at_utc": "2026-05-02T04:09:54Z"
+  "updated_at_utc": "2026-05-02T04:10:15Z"
 }
