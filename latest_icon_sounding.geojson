@@ -6,21 +6,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          9.9
+          10.49842,
+          53.4958,
+          10.0
         ]
       },
       "properties": {
-        "pressure": 1005.774,
-        "temp": 288.73,
-        "dewpoint": 286.08,
-        "gpheight": 9.9,
-        "time": 1787976000,
+        "pressure": 1000.991,
+        "temp": 289.88,
+        "dewpoint": 286.74,
+        "gpheight": 10.0,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 8.3,
-        "windSpeedMs": 4.27,
-        "windDirDeg": 210.6
+        "windSpeedKn": 8.4,
+        "windSpeedMs": 4.32,
+        "windDirDeg": 216.5
       }
     },
     {
@@ -28,21 +28,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          37.4
+          10.49842,
+          53.4958,
+          37.2
         ]
       },
       "properties": {
-        "pressure": 1002.514,
-        "temp": 288.64,
-        "dewpoint": 285.99,
-        "gpheight": 37.4,
-        "time": 1787976000,
+        "pressure": 997.777,
+        "temp": 289.55,
+        "dewpoint": 286.57,
+        "gpheight": 37.2,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 12.3,
-        "windSpeedMs": 6.33,
-        "windDirDeg": 212.8
+        "windSpeedKn": 12.5,
+        "windSpeedMs": 6.43,
+        "windDirDeg": 218.1
       }
     },
     {
@@ -50,21 +50,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          77.2
+          10.49842,
+          53.4958,
+          76.7
         ]
       },
       "properties": {
-        "pressure": 997.799,
-        "temp": 288.43,
-        "dewpoint": 285.88,
-        "gpheight": 77.2,
-        "time": 1787976000,
+        "pressure": 993.137,
+        "temp": 289.14,
+        "dewpoint": 286.44,
+        "gpheight": 76.7,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 15.4,
-        "windSpeedMs": 7.92,
-        "windDirDeg": 215.2
+        "windSpeedKn": 14.8,
+        "windSpeedMs": 7.61,
+        "windDirDeg": 219.0
       }
     },
     {
@@ -72,21 +72,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          125.9
+          10.49842,
+          53.4958,
+          125.0
         ]
       },
       "properties": {
-        "pressure": 992.048,
-        "temp": 288.2,
-        "dewpoint": 285.76,
-        "gpheight": 125.9,
-        "time": 1787976000,
+        "pressure": 987.47,
+        "temp": 288.67,
+        "dewpoint": 286.3,
+        "gpheight": 125.0,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 18.6,
-        "windSpeedMs": 9.57,
-        "windDirDeg": 218.2
+        "windSpeedKn": 16.4,
+        "windSpeedMs": 8.44,
+        "windDirDeg": 219.8
       }
     },
     {
@@ -94,21 +94,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          182.2
+          10.49842,
+          53.4958,
+          180.8
         ]
       },
       "properties": {
-        "pressure": 985.446,
-        "temp": 288.05,
-        "dewpoint": 285.63,
-        "gpheight": 182.2,
-        "time": 1787976000,
+        "pressure": 980.962,
+        "temp": 288.16,
+        "dewpoint": 286.13,
+        "gpheight": 180.8,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 22.6,
-        "windSpeedMs": 11.63,
-        "windDirDeg": 222.4
+        "windSpeedKn": 18.2,
+        "windSpeedMs": 9.36,
+        "windDirDeg": 221.2
       }
     },
     {
@@ -116,21 +116,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          245.3
+          10.49842,
+          53.4958,
+          243.3
         ]
       },
       "properties": {
-        "pressure": 978.099,
-        "temp": 287.78,
-        "dewpoint": 285.52,
-        "gpheight": 245.3,
-        "time": 1787976000,
+        "pressure": 973.71,
+        "temp": 287.69,
+        "dewpoint": 285.92,
+        "gpheight": 243.3,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 26.3,
-        "windSpeedMs": 13.53,
-        "windDirDeg": 227.2
+        "windSpeedKn": 21.1,
+        "windSpeedMs": 10.85,
+        "windDirDeg": 224.7
       }
     },
     {
@@ -138,197 +138,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          314.6
+          10.49842,
+          53.4958,
+          312.0
         ]
       },
       "properties": {
-        "pressure": 970.073,
-        "temp": 287.41,
-        "dewpoint": 285.43,
-        "gpheight": 314.6,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 30.4,
-        "windSpeedMs": 15.64,
-        "windDirDeg": 232.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          389.9
-        ]
-      },
-      "properties": {
-        "pressure": 961.419,
-        "temp": 287.03,
-        "dewpoint": 285.37,
-        "gpheight": 389.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 33.6,
-        "windSpeedMs": 17.29,
-        "windDirDeg": 238.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          470.8
-        ]
-      },
-      "properties": {
-        "pressure": 952.193,
-        "temp": 286.72,
-        "dewpoint": 285.43,
-        "gpheight": 470.8,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 35.2,
-        "windSpeedMs": 18.11,
-        "windDirDeg": 244.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          557.3
-        ]
-      },
-      "properties": {
-        "pressure": 942.421,
-        "temp": 286.34,
-        "dewpoint": 285.64,
-        "gpheight": 557.3,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 35.1,
-        "windSpeedMs": 18.06,
-        "windDirDeg": 249.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          649.0
-        ]
-      },
-      "properties": {
-        "pressure": 932.149,
-        "temp": 286.12,
+        "pressure": 965.789,
+        "temp": 287.32,
         "dewpoint": 285.71,
-        "gpheight": 649.0,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 32.5,
-        "windSpeedMs": 16.72,
-        "windDirDeg": 253.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          746.2
-        ]
-      },
-      "properties": {
-        "pressure": 921.398,
-        "temp": 285.98,
-        "dewpoint": 285.43,
-        "gpheight": 746.2,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 29.0,
-        "windSpeedMs": 14.92,
-        "windDirDeg": 256.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          848.4
-        ]
-      },
-      "properties": {
-        "pressure": 910.193,
-        "temp": 285.4,
-        "dewpoint": 284.48,
-        "gpheight": 848.4,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 27.0,
-        "windSpeedMs": 13.89,
-        "windDirDeg": 256.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          955.8
-        ]
-      },
-      "properties": {
-        "pressure": 898.542,
-        "temp": 284.94,
-        "dewpoint": 283.53,
-        "gpheight": 955.8,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 25.1,
-        "windSpeedMs": 12.91,
-        "windDirDeg": 252.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          1068.4
-        ]
-      },
-      "properties": {
-        "pressure": 886.457,
-        "temp": 283.92,
-        "dewpoint": 283.2,
-        "gpheight": 1068.4,
-        "time": 1787976000,
+        "gpheight": 312.0,
+        "time": 1787986800,
         "flags": 0,
         "windSpeedKn": 24.9,
         "windSpeedMs": 12.81,
-        "windDirDeg": 252.4
+        "windDirDeg": 230.5
       }
     },
     {
@@ -336,21 +160,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          1186.0
+          10.49842,
+          53.4958,
+          386.6
         ]
       },
       "properties": {
-        "pressure": 873.956,
-        "temp": 283.07,
-        "dewpoint": 282.38,
-        "gpheight": 1186.0,
-        "time": 1787976000,
+        "pressure": 957.26,
+        "temp": 287.14,
+        "dewpoint": 285.55,
+        "gpheight": 386.6,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 24.6,
-        "windSpeedMs": 12.66,
-        "windDirDeg": 252.2
+        "windSpeedKn": 28.3,
+        "windSpeedMs": 14.56,
+        "windDirDeg": 236.8
       }
     },
     {
@@ -358,1032 +182,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          1309.0
+          10.49842,
+          53.4958,
+          466.8
         ]
       },
       "properties": {
-        "pressure": 861.057,
-        "temp": 282.48,
-        "dewpoint": 280.16,
-        "gpheight": 1309.0,
-        "time": 1787976000,
+        "pressure": 948.17,
+        "temp": 287.38,
+        "dewpoint": 285.41,
+        "gpheight": 466.8,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 24.3,
-        "windSpeedMs": 12.5,
-        "windDirDeg": 252.1
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          1437.4
-        ]
-      },
-      "properties": {
-        "pressure": 847.799,
-        "temp": 282.74,
-        "dewpoint": 277.06,
-        "gpheight": 1437.4,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 24.6,
-        "windSpeedMs": 12.66,
-        "windDirDeg": 255.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          1570.9
-        ]
-      },
-      "properties": {
-        "pressure": 834.202,
-        "temp": 282.09,
-        "dewpoint": 275.49,
-        "gpheight": 1570.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 24.6,
-        "windSpeedMs": 12.66,
-        "windDirDeg": 257.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          1709.8
-        ]
-      },
-      "properties": {
-        "pressure": 820.269,
-        "temp": 281.6,
-        "dewpoint": 275.01,
-        "gpheight": 1709.8,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 25.9,
-        "windSpeedMs": 13.32,
-        "windDirDeg": 256.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          1853.8
-        ]
-      },
-      "properties": {
-        "pressure": 806.007,
-        "temp": 280.58,
-        "dewpoint": 274.92,
-        "gpheight": 1853.8,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 27.3,
-        "windSpeedMs": 14.04,
-        "windDirDeg": 255.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          2003.3
-        ]
-      },
-      "properties": {
-        "pressure": 791.419,
-        "temp": 279.62,
-        "dewpoint": 274.87,
-        "gpheight": 2003.3,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 26.9,
-        "windSpeedMs": 13.84,
-        "windDirDeg": 255.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          2158.3
-        ]
-      },
-      "properties": {
-        "pressure": 776.522,
-        "temp": 278.66,
-        "dewpoint": 274.06,
-        "gpheight": 2158.3,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 25.0,
-        "windSpeedMs": 12.86,
-        "windDirDeg": 255.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          2318.9
-        ]
-      },
-      "properties": {
-        "pressure": 761.329,
-        "temp": 277.7,
-        "dewpoint": 272.53,
-        "gpheight": 2318.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 23.4,
-        "windSpeedMs": 12.04,
-        "windDirDeg": 252.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          2485.3
-        ]
-      },
-      "properties": {
-        "pressure": 745.842,
-        "temp": 276.53,
-        "dewpoint": 271.35,
-        "gpheight": 2485.3,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 23.5,
-        "windSpeedMs": 12.09,
-        "windDirDeg": 251.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          2657.4
-        ]
-      },
-      "properties": {
-        "pressure": 730.072,
-        "temp": 275.14,
-        "dewpoint": 270.82,
-        "gpheight": 2657.4,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 23.6,
-        "windSpeedMs": 12.14,
-        "windDirDeg": 253.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          2835.6
-        ]
-      },
-      "properties": {
-        "pressure": 714.03,
-        "temp": 273.98,
-        "dewpoint": 269.99,
-        "gpheight": 2835.6,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 22.1,
-        "windSpeedMs": 11.37,
-        "windDirDeg": 257.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          3019.9
-        ]
-      },
-      "properties": {
-        "pressure": 697.738,
-        "temp": 272.82,
-        "dewpoint": 267.85,
-        "gpheight": 3019.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 22.3,
-        "windSpeedMs": 11.47,
-        "windDirDeg": 258.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          3210.6
-        ]
-      },
-      "properties": {
-        "pressure": 681.207,
-        "temp": 271.7,
-        "dewpoint": 266.35,
-        "gpheight": 3210.6,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 24.6,
-        "windSpeedMs": 12.66,
-        "windDirDeg": 257.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          3407.9
-        ]
-      },
-      "properties": {
-        "pressure": 664.47,
-        "temp": 270.92,
-        "dewpoint": 264.87,
-        "gpheight": 3407.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 26.3,
-        "windSpeedMs": 13.53,
-        "windDirDeg": 256.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          3611.8
-        ]
-      },
-      "properties": {
-        "pressure": 647.528,
-        "temp": 269.64,
-        "dewpoint": 261.0,
-        "gpheight": 3611.8,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 27.6,
-        "windSpeedMs": 14.2,
-        "windDirDeg": 251.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          3822.5
-        ]
-      },
-      "properties": {
-        "pressure": 630.384,
-        "temp": 268.25,
-        "dewpoint": 259.66,
-        "gpheight": 3822.5,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 27.5,
-        "windSpeedMs": 14.15,
-        "windDirDeg": 253.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          4040.2
-        ]
-      },
-      "properties": {
-        "pressure": 613.038,
-        "temp": 266.66,
-        "dewpoint": 255.37,
-        "gpheight": 4040.2,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 26.6,
-        "windSpeedMs": 13.68,
-        "windDirDeg": 253.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          4265.5
-        ]
-      },
-      "properties": {
-        "pressure": 595.511,
-        "temp": 265.25,
-        "dewpoint": 252.58,
-        "gpheight": 4265.5,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 27.7,
-        "windSpeedMs": 14.25,
-        "windDirDeg": 257.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          4498.4
-        ]
-      },
-      "properties": {
-        "pressure": 577.826,
-        "temp": 263.96,
-        "dewpoint": 253.3,
-        "gpheight": 4498.4,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 27.1,
-        "windSpeedMs": 13.94,
-        "windDirDeg": 256.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          4739.2
-        ]
-      },
-      "properties": {
-        "pressure": 560.002,
-        "temp": 262.51,
-        "dewpoint": 247.19,
-        "gpheight": 4739.2,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 25.1,
-        "windSpeedMs": 12.91,
-        "windDirDeg": 250.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          4988.0
-        ]
-      },
-      "properties": {
-        "pressure": 542.037,
-        "temp": 260.75,
-        "dewpoint": 241.84,
-        "gpheight": 4988.0,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 24.7,
-        "windSpeedMs": 12.71,
-        "windDirDeg": 250.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          5245.7
-        ]
-      },
-      "properties": {
-        "pressure": 523.948,
-        "temp": 259.3,
-        "dewpoint": 240.9,
-        "gpheight": 5245.7,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 23.0,
-        "windSpeedMs": 11.83,
-        "windDirDeg": 254.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          5512.0
-        ]
-      },
-      "properties": {
-        "pressure": 505.752,
-        "temp": 257.4,
-        "dewpoint": 240.92,
-        "gpheight": 5512.0,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 23.2,
-        "windSpeedMs": 11.94,
-        "windDirDeg": 258.6
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          5787.5
-        ]
-      },
-      "properties": {
-        "pressure": 487.445,
-        "temp": 255.32,
-        "dewpoint": 238.12,
-        "gpheight": 5787.5,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 22.4,
-        "windSpeedMs": 11.52,
-        "windDirDeg": 261.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          6072.8
-        ]
-      },
-      "properties": {
-        "pressure": 469.033,
-        "temp": 253.11,
-        "dewpoint": 234.73,
-        "gpheight": 6072.8,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 21.4,
-        "windSpeedMs": 11.01,
-        "windDirDeg": 266.3
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          6368.4
-        ]
-      },
-      "properties": {
-        "pressure": 450.534,
-        "temp": 250.92,
-        "dewpoint": 232.62,
-        "gpheight": 6368.4,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 22.4,
-        "windSpeedMs": 11.52,
-        "windDirDeg": 270.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          6674.9
-        ]
-      },
-      "properties": {
-        "pressure": 431.982,
-        "temp": 249.08,
-        "dewpoint": 233.2,
-        "gpheight": 6674.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 26.2,
-        "windSpeedMs": 13.48,
-        "windDirDeg": 267.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          6992.4
-        ]
-      },
-      "properties": {
-        "pressure": 413.382,
-        "temp": 246.45,
-        "dewpoint": 234.32,
-        "gpheight": 6992.4,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 28.1,
-        "windSpeedMs": 14.46,
-        "windDirDeg": 266.9
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          7322.0
-        ]
-      },
-      "properties": {
-        "pressure": 394.729,
-        "temp": 243.87,
-        "dewpoint": 232.56,
-        "gpheight": 7322.0,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 24.2,
-        "windSpeedMs": 12.45,
-        "windDirDeg": 263.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          7664.0
-        ]
-      },
-      "properties": {
-        "pressure": 376.024,
-        "temp": 240.66,
-        "dewpoint": 231.51,
-        "gpheight": 7664.0,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 23.3,
-        "windSpeedMs": 11.99,
-        "windDirDeg": 261.8
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          8019.9
-        ]
-      },
-      "properties": {
-        "pressure": 357.28,
-        "temp": 237.73,
-        "dewpoint": 228.89,
-        "gpheight": 8019.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 21.5,
-        "windSpeedMs": 11.06,
-        "windDirDeg": 266.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          8390.2
-        ]
-      },
-      "properties": {
-        "pressure": 338.53,
-        "temp": 234.68,
-        "dewpoint": 223.98,
-        "gpheight": 8390.2,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 18.5,
-        "windSpeedMs": 9.52,
-        "windDirDeg": 271.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          8775.7
-        ]
-      },
-      "properties": {
-        "pressure": 319.771,
-        "temp": 231.02,
-        "dewpoint": 222.48,
-        "gpheight": 8775.7,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 18.3,
-        "windSpeedMs": 9.41,
-        "windDirDeg": 276.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          9177.8
-        ]
-      },
-      "properties": {
-        "pressure": 300.999,
-        "temp": 227.06,
-        "dewpoint": 221.97,
-        "gpheight": 9177.8,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 18.4,
-        "windSpeedMs": 9.47,
-        "windDirDeg": 276.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          9598.9
-        ]
-      },
-      "properties": {
-        "pressure": 282.274,
-        "temp": 224.0,
-        "dewpoint": 219.74,
-        "gpheight": 9598.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 20.2,
-        "windSpeedMs": 10.39,
-        "windDirDeg": 276.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          10040.0
-        ]
-      },
-      "properties": {
-        "pressure": 263.663,
-        "temp": 220.92,
-        "dewpoint": 215.78,
-        "gpheight": 10040.0,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 16.6,
-        "windSpeedMs": 8.54,
-        "windDirDeg": 277.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          10508.6
-        ]
-      },
-      "properties": {
-        "pressure": 245.426,
-        "temp": 223.34,
-        "dewpoint": 208.22,
-        "gpheight": 10508.6,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 24.8,
-        "windSpeedMs": 12.76,
-        "windDirDeg": 267.5
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          11003.7
-        ]
-      },
-      "properties": {
-        "pressure": 227.855,
-        "temp": 227.71,
-        "dewpoint": 199.84,
-        "gpheight": 11003.7,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 19.1,
-        "windSpeedMs": 9.83,
-        "windDirDeg": 261.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          11522.1
-        ]
-      },
-      "properties": {
-        "pressure": 210.855,
-        "temp": 228.38,
-        "dewpoint": 196.89,
-        "gpheight": 11522.1,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 14.3,
-        "windSpeedMs": 7.36,
-        "windDirDeg": 232.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          12070.2
-        ]
-      },
-      "properties": {
-        "pressure": 194.252,
-        "temp": 228.32,
-        "dewpoint": 196.56,
-        "gpheight": 12070.2,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 20.5,
-        "windSpeedMs": 10.55,
-        "windDirDeg": 240.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          12650.5
-        ]
-      },
-      "properties": {
-        "pressure": 177.944,
-        "temp": 226.06,
-        "dewpoint": 195.48,
-        "gpheight": 12650.5,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 19.5,
-        "windSpeedMs": 10.03,
-        "windDirDeg": 230.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          13273.1
-        ]
-      },
-      "properties": {
-        "pressure": 161.928,
-        "temp": 225.53,
-        "dewpoint": 192.3,
-        "gpheight": 13273.1,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 21.6,
-        "windSpeedMs": 11.11,
-        "windDirDeg": 231.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          13942.7
-        ]
-      },
-      "properties": {
-        "pressure": 146.253,
-        "temp": 224.69,
-        "dewpoint": 189.87,
-        "gpheight": 13942.7,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 24.7,
-        "windSpeedMs": 12.71,
-        "windDirDeg": 234.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          14670.9
-        ]
-      },
-      "properties": {
-        "pressure": 130.92,
-        "temp": 224.62,
-        "dewpoint": 190.83,
-        "gpheight": 14670.9,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 28.5,
-        "windSpeedMs": 14.66,
-        "windDirDeg": 234.4
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          15471.3
-        ]
-      },
-      "properties": {
-        "pressure": 115.928,
-        "temp": 224.83,
-        "dewpoint": 188.42,
-        "gpheight": 15471.3,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 28.4,
-        "windSpeedMs": 14.61,
-        "windDirDeg": 244.7
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          16364.8
-        ]
-      },
-      "properties": {
-        "pressure": 101.192,
-        "temp": 224.53,
-        "dewpoint": 187.04,
-        "gpheight": 16364.8,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 19.9,
-        "windSpeedMs": 10.24,
-        "windDirDeg": 246.2
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.32705,
-          52.84728,
-          17386.0
-        ]
-      },
-      "properties": {
-        "pressure": 86.446,
-        "temp": 221.51,
-        "dewpoint": 184.75,
-        "gpheight": 17386.0,
-        "time": 1787976000,
-        "flags": 0,
-        "windSpeedKn": 17.3,
-        "windSpeedMs": 8.9,
+        "windSpeedKn": 31.1,
+        "windSpeedMs": 16.0,
         "windDirDeg": 243.8
       }
     },
@@ -1392,21 +204,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          18631.3
+          10.49842,
+          53.4958,
+          552.5
         ]
       },
       "properties": {
-        "pressure": 71.276,
-        "temp": 220.45,
-        "dewpoint": 185.26,
-        "gpheight": 18631.3,
-        "time": 1787976000,
+        "pressure": 938.544,
+        "temp": 286.94,
+        "dewpoint": 285.14,
+        "gpheight": 552.5,
+        "time": 1787986800,
         "flags": 0,
-        "windSpeedKn": 10.0,
-        "windSpeedMs": 5.14,
-        "windDirDeg": 252.8
+        "windSpeedKn": 30.9,
+        "windSpeedMs": 15.9,
+        "windDirDeg": 244.4
       }
     },
     {
@@ -1414,32 +226,1220 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.32705,
-          52.84728,
-          20621.1
+          10.49842,
+          53.4958,
+          643.4
         ]
       },
       "properties": {
-        "pressure": 52.28,
-        "temp": 219.33,
-        "dewpoint": 183.52,
-        "gpheight": 20621.1,
-        "time": 1787976000,
+        "pressure": 928.418,
+        "temp": 286.17,
+        "dewpoint": 284.93,
+        "gpheight": 643.4,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 30.2,
+        "windSpeedMs": 15.54,
+        "windDirDeg": 245.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          739.5
+        ]
+      },
+      "properties": {
+        "pressure": 917.803,
+        "temp": 285.63,
+        "dewpoint": 284.62,
+        "gpheight": 739.5,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 29.3,
+        "windSpeedMs": 15.07,
+        "windDirDeg": 246.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          840.8
+        ]
+      },
+      "properties": {
+        "pressure": 906.735,
+        "temp": 285.16,
+        "dewpoint": 283.82,
+        "gpheight": 840.8,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 29.0,
+        "windSpeedMs": 14.92,
+        "windDirDeg": 246.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          947.3
+        ]
+      },
+      "properties": {
+        "pressure": 895.221,
+        "temp": 284.65,
+        "dewpoint": 282.48,
+        "gpheight": 947.3,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 28.3,
+        "windSpeedMs": 14.56,
+        "windDirDeg": 244.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          1058.8
+        ]
+      },
+      "properties": {
+        "pressure": 883.283,
+        "temp": 283.87,
+        "dewpoint": 281.68,
+        "gpheight": 1058.8,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 27.6,
+        "windSpeedMs": 14.2,
+        "windDirDeg": 243.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          1175.6
+        ]
+      },
+      "properties": {
+        "pressure": 870.934,
+        "temp": 283.23,
+        "dewpoint": 280.6,
+        "gpheight": 1175.6,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 27.0,
+        "windSpeedMs": 13.89,
+        "windDirDeg": 244.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          1297.4
+        ]
+      },
+      "properties": {
+        "pressure": 858.191,
+        "temp": 282.37,
+        "dewpoint": 280.27,
+        "gpheight": 1297.4,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.5,
+        "windSpeedMs": 13.63,
+        "windDirDeg": 245.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          1424.4
+        ]
+      },
+      "properties": {
+        "pressure": 845.063,
+        "temp": 281.42,
+        "dewpoint": 280.07,
+        "gpheight": 1424.4,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.1,
+        "windSpeedMs": 13.43,
+        "windDirDeg": 247.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          1556.7
+        ]
+      },
+      "properties": {
+        "pressure": 831.575,
+        "temp": 280.95,
+        "dewpoint": 279.44,
+        "gpheight": 1556.7,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 24.9,
+        "windSpeedMs": 12.81,
+        "windDirDeg": 249.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          1694.2
+        ]
+      },
+      "properties": {
+        "pressure": 817.75,
+        "temp": 280.24,
+        "dewpoint": 278.05,
+        "gpheight": 1694.2,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 24.1,
+        "windSpeedMs": 12.4,
+        "windDirDeg": 250.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          1837.3
+        ]
+      },
+      "properties": {
+        "pressure": 803.595,
+        "temp": 279.8,
+        "dewpoint": 275.64,
+        "gpheight": 1837.3,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 24.2,
+        "windSpeedMs": 12.45,
+        "windDirDeg": 249.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          1985.7
+        ]
+      },
+      "properties": {
+        "pressure": 789.123,
+        "temp": 279.08,
+        "dewpoint": 274.01,
+        "gpheight": 1985.7,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.2,
+        "windSpeedMs": 13.48,
+        "windDirDeg": 247.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          2139.7
+        ]
+      },
+      "properties": {
+        "pressure": 774.343,
+        "temp": 278.21,
+        "dewpoint": 270.97,
+        "gpheight": 2139.7,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 27.9,
+        "windSpeedMs": 14.35,
+        "windDirDeg": 244.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          2299.4
+        ]
+      },
+      "properties": {
+        "pressure": 759.266,
+        "temp": 277.44,
+        "dewpoint": 269.39,
+        "gpheight": 2299.4,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 29.0,
+        "windSpeedMs": 14.92,
+        "windDirDeg": 242.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          2464.7
+        ]
+      },
+      "properties": {
+        "pressure": 743.907,
+        "temp": 276.35,
+        "dewpoint": 269.36,
+        "gpheight": 2464.7,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 28.2,
+        "windSpeedMs": 14.51,
+        "windDirDeg": 241.7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          2635.8
+        ]
+      },
+      "properties": {
+        "pressure": 728.261,
+        "temp": 274.96,
+        "dewpoint": 271.12,
+        "gpheight": 2635.8,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.6,
+        "windSpeedMs": 13.68,
+        "windDirDeg": 242.8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          2812.8
+        ]
+      },
+      "properties": {
+        "pressure": 712.343,
+        "temp": 273.73,
+        "dewpoint": 270.45,
+        "gpheight": 2812.8,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 25.2,
+        "windSpeedMs": 12.96,
+        "windDirDeg": 242.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          2996.1
+        ]
+      },
+      "properties": {
+        "pressure": 696.163,
+        "temp": 272.51,
+        "dewpoint": 268.98,
+        "gpheight": 2996.1,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 24.6,
+        "windSpeedMs": 12.66,
+        "windDirDeg": 246.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          3185.7
+        ]
+      },
+      "properties": {
+        "pressure": 679.728,
+        "temp": 271.04,
+        "dewpoint": 267.38,
+        "gpheight": 3185.7,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 25.2,
+        "windSpeedMs": 12.96,
+        "windDirDeg": 246.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          3381.6
+        ]
+      },
+      "properties": {
+        "pressure": 663.043,
+        "temp": 269.4,
+        "dewpoint": 266.96,
+        "gpheight": 3381.6,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.6,
+        "windSpeedMs": 13.68,
+        "windDirDeg": 247.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          3584.9
+        ]
+      },
+      "properties": {
+        "pressure": 646.163,
+        "temp": 269.28,
+        "dewpoint": 265.16,
+        "gpheight": 3584.9,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 28.7,
+        "windSpeedMs": 14.76,
+        "windDirDeg": 250.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          3795.0
+        ]
+      },
+      "properties": {
+        "pressure": 629.129,
+        "temp": 268.6,
+        "dewpoint": 260.41,
+        "gpheight": 3795.0,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 29.2,
+        "windSpeedMs": 15.02,
+        "windDirDeg": 249.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          4012.1
+        ]
+      },
+      "properties": {
+        "pressure": 611.921,
+        "temp": 267.45,
+        "dewpoint": 252.2,
+        "gpheight": 4012.1,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 30.6,
+        "windSpeedMs": 15.74,
+        "windDirDeg": 248.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          4236.5
+        ]
+      },
+      "properties": {
+        "pressure": 594.532,
+        "temp": 265.9,
+        "dewpoint": 250.97,
+        "gpheight": 4236.5,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 28.0,
+        "windSpeedMs": 14.4,
+        "windDirDeg": 247.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          4468.6
+        ]
+      },
+      "properties": {
+        "pressure": 576.969,
+        "temp": 264.47,
+        "dewpoint": 251.5,
+        "gpheight": 4468.6,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.4,
+        "windSpeedMs": 13.58,
+        "windDirDeg": 246.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          4708.7
+        ]
+      },
+      "properties": {
+        "pressure": 559.267,
+        "temp": 263.18,
+        "dewpoint": 252.66,
+        "gpheight": 4708.7,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 27.7,
+        "windSpeedMs": 14.25,
+        "windDirDeg": 254.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          4956.6
+        ]
+      },
+      "properties": {
+        "pressure": 541.416,
+        "temp": 261.12,
+        "dewpoint": 254.49,
+        "gpheight": 4956.6,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.3,
+        "windSpeedMs": 13.53,
+        "windDirDeg": 255.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          5213.3
+        ]
+      },
+      "properties": {
+        "pressure": 523.419,
+        "temp": 259.39,
+        "dewpoint": 251.86,
+        "gpheight": 5213.3,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.7,
+        "windSpeedMs": 13.74,
+        "windDirDeg": 251.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          5478.9
+        ]
+      },
+      "properties": {
+        "pressure": 505.298,
+        "temp": 257.5,
+        "dewpoint": 252.71,
+        "gpheight": 5478.9,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 23.1,
+        "windSpeedMs": 11.88,
+        "windDirDeg": 257.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          5753.6
+        ]
+      },
+      "properties": {
+        "pressure": 487.061,
+        "temp": 255.36,
+        "dewpoint": 253.32,
+        "gpheight": 5753.6,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 23.7,
+        "windSpeedMs": 12.19,
+        "windDirDeg": 271.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          6038.2
+        ]
+      },
+      "properties": {
+        "pressure": 468.717,
+        "temp": 253.26,
+        "dewpoint": 252.37,
+        "gpheight": 6038.2,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 23.8,
+        "windSpeedMs": 12.24,
+        "windDirDeg": 271.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          6333.1
+        ]
+      },
+      "properties": {
+        "pressure": 450.287,
+        "temp": 251.17,
+        "dewpoint": 248.96,
+        "gpheight": 6333.1,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.1,
+        "windSpeedMs": 13.43,
+        "windDirDeg": 274.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          6638.9
+        ]
+      },
+      "properties": {
+        "pressure": 431.785,
+        "temp": 248.95,
+        "dewpoint": 245.04,
+        "gpheight": 6638.9,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 27.2,
+        "windSpeedMs": 13.99,
+        "windDirDeg": 273.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          6955.9
+        ]
+      },
+      "properties": {
+        "pressure": 413.215,
+        "temp": 246.38,
+        "dewpoint": 242.35,
+        "gpheight": 6955.9,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 26.2,
+        "windSpeedMs": 13.48,
+        "windDirDeg": 273.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          7285.1
+        ]
+      },
+      "properties": {
+        "pressure": 394.591,
+        "temp": 243.85,
+        "dewpoint": 238.76,
+        "gpheight": 7285.1,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 24.9,
+        "windSpeedMs": 12.81,
+        "windDirDeg": 272.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          7626.7
+        ]
+      },
+      "properties": {
+        "pressure": 375.911,
+        "temp": 240.6,
+        "dewpoint": 237.36,
+        "gpheight": 7626.7,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 25.7,
+        "windSpeedMs": 13.22,
+        "windDirDeg": 273.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          7982.1
+        ]
+      },
+      "properties": {
+        "pressure": 357.181,
+        "temp": 237.57,
+        "dewpoint": 233.99,
+        "gpheight": 7982.1,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 25.9,
+        "windSpeedMs": 13.32,
+        "windDirDeg": 282.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          8352.2
+        ]
+      },
+      "properties": {
+        "pressure": 338.445,
+        "temp": 234.69,
+        "dewpoint": 229.88,
+        "gpheight": 8352.2,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 20.7,
+        "windSpeedMs": 10.65,
+        "windDirDeg": 285.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          8737.6
+        ]
+      },
+      "properties": {
+        "pressure": 319.711,
+        "temp": 231.2,
+        "dewpoint": 226.33,
+        "gpheight": 8737.6,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 17.8,
+        "windSpeedMs": 9.16,
+        "windDirDeg": 275.5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          9139.7
+        ]
+      },
+      "properties": {
+        "pressure": 300.978,
+        "temp": 227.48,
+        "dewpoint": 223.0,
+        "gpheight": 9139.7,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 17.2,
+        "windSpeedMs": 8.85,
+        "windDirDeg": 274.2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          9560.4
+        ]
+      },
+      "properties": {
+        "pressure": 282.289,
+        "temp": 224.23,
+        "dewpoint": 219.8,
+        "gpheight": 9560.4,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 19.6,
+        "windSpeedMs": 10.08,
+        "windDirDeg": 290.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          10002.2
+        ]
+      },
+      "properties": {
+        "pressure": 263.738,
+        "temp": 222.01,
+        "dewpoint": 216.27,
+        "gpheight": 10002.2,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 18.5,
+        "windSpeedMs": 9.52,
+        "windDirDeg": 285.4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          10470.2
+        ]
+      },
+      "properties": {
+        "pressure": 245.573,
+        "temp": 224.06,
+        "dewpoint": 209.88,
+        "gpheight": 10470.2,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 16.8,
+        "windSpeedMs": 8.64,
+        "windDirDeg": 293.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          10962.8
+        ]
+      },
+      "properties": {
+        "pressure": 227.963,
+        "temp": 226.13,
+        "dewpoint": 203.36,
+        "gpheight": 10962.8,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 14.4,
+        "windSpeedMs": 7.41,
+        "windDirDeg": 261.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          11480.4
+        ]
+      },
+      "properties": {
+        "pressure": 210.824,
+        "temp": 226.27,
+        "dewpoint": 197.46,
+        "gpheight": 11480.4,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 22.9,
+        "windSpeedMs": 11.78,
+        "windDirDeg": 237.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          12029.3
+        ]
+      },
+      "properties": {
+        "pressure": 194.104,
+        "temp": 226.91,
+        "dewpoint": 196.22,
+        "gpheight": 12029.3,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 23.4,
+        "windSpeedMs": 12.04,
+        "windDirDeg": 252.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          12613.1
+        ]
+      },
+      "properties": {
+        "pressure": 177.82,
+        "temp": 227.64,
+        "dewpoint": 195.01,
+        "gpheight": 12613.1,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 20.3,
+        "windSpeedMs": 10.44,
+        "windDirDeg": 237.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          13234.3
+        ]
+      },
+      "properties": {
+        "pressure": 161.888,
+        "temp": 226.08,
+        "dewpoint": 192.56,
+        "gpheight": 13234.3,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 24.1,
+        "windSpeedMs": 12.4,
+        "windDirDeg": 242.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          13904.0
+        ]
+      },
+      "properties": {
+        "pressure": 146.256,
+        "temp": 225.29,
+        "dewpoint": 188.08,
+        "gpheight": 13904.0,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 22.3,
+        "windSpeedMs": 11.47,
+        "windDirDeg": 248.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          14631.6
+        ]
+      },
+      "properties": {
+        "pressure": 130.954,
+        "temp": 224.94,
+        "dewpoint": 187.95,
+        "gpheight": 14631.6,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 21.1,
+        "windSpeedMs": 10.85,
+        "windDirDeg": 243.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          15431.1
+        ]
+      },
+      "properties": {
+        "pressure": 115.963,
+        "temp": 224.65,
+        "dewpoint": 188.21,
+        "gpheight": 15431.1,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 16.9,
+        "windSpeedMs": 8.69,
+        "windDirDeg": 243.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          16323.1
+        ]
+      },
+      "properties": {
+        "pressure": 101.186,
+        "temp": 223.56,
+        "dewpoint": 187.08,
+        "gpheight": 16323.1,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 16.6,
+        "windSpeedMs": 8.54,
+        "windDirDeg": 222.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          17345.9
+        ]
+      },
+      "properties": {
+        "pressure": 86.408,
+        "temp": 221.31,
+        "dewpoint": 184.83,
+        "gpheight": 17345.9,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 16.2,
+        "windSpeedMs": 8.33,
+        "windDirDeg": 245.1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          18591.3
+        ]
+      },
+      "properties": {
+        "pressure": 71.234,
+        "temp": 220.33,
+        "dewpoint": 185.14,
+        "gpheight": 18591.3,
+        "time": 1787986800,
+        "flags": 0,
+        "windSpeedKn": 8.2,
+        "windSpeedMs": 4.22,
+        "windDirDeg": 258.6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.49842,
+          53.4958,
+          20581.9
+        ]
+      },
+      "properties": {
+        "pressure": 52.251,
+        "temp": 219.42,
+        "dewpoint": 183.55,
+        "gpheight": 20581.9,
+        "time": 1787986800,
         "flags": 0,
         "windSpeedKn": 2.7,
         "windSpeedMs": 1.39,
-        "windDirDeg": 297.0
+        "windDirDeg": 198.8
       }
     }
   ],
   "metadata": {
-    "request_id": "0028726f-5e90-4dbc-b75a-f837c8bd3683",
-    "version": "2026-08-29T04:16:46Z",
-    "request_time_utc": "2026-08-29T04:16:46Z",
-    "data_time_utc": "2026-08-29T04:00:00Z",
+    "request_id": "a6f69191-a1b3-4fe1-960d-a9e51d144fe8",
+    "version": "2026-08-29T06:33:30Z",
+    "request_time_utc": "2026-08-29T06:33:30Z",
+    "data_time_utc": "2026-08-29T07:00:00Z",
     "model_name": "ICON-D2",
     "model_run_utc": "2026-08-29T03:00:00Z",
-    "forecast_hour": 1,
-    "generated_at_utc": "2026-08-29T04:17:07Z"
+    "forecast_hour": 4,
+    "generated_at_utc": "2026-08-29T06:33:50Z"
   }
 }
